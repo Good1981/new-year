@@ -1,0 +1,71 @@
+body {
+  background-color: #bacdf3;
+}
+
+p {
+}
+
+main {
+  margin-top: 100px;
+  background-color: #bacdf3;
+}
+
+header {
+  color: rgb(7, 45, 102);
+  background-color: rgb(130, 150, 177);
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: rgb(143, 46, 46);
+}
+
+header h1 {
+  background-color: rgb(36, 73, 129);
+}
+
+header h2 {
+  margin-left: 50px;
+  color: rgb(7, 45, 102);
+}
+
+header p {
+  margin-left: 50px;
+}
+
+.card img {
+  width: 30%;
+  height: 30%;
+}
+
+.main {
+  padding: 30px;
+  box-sizing: content-box;
+}
+.card {
+  padding: 15px;
+  border: 3px solid;
+  border-color: rgb(138, 138, 138);
+  margin: 10px;
+  width: 30%;
+  text-align: center;
+  box-sizing: border-box;
+  display: inline-block;
+}
+footer {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  margin-top: 50%;
+  position: absolute;
+  background-color: rgb(130, 150, 177);
+}
+#demo {
+  text-align: center;
+}
+@media (max-width: 600px) {
+  main {
+    grid-template-columns: ;
+  }
+}
